@@ -1,0 +1,33 @@
+body {
+	background-image: url(header.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+}
+
+p {
+	position: absolute; 
+	top: 300px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: xx-large;
+	color: rgb(255,255,255);
+	transition: all 1s;
+}
+
+p:hover{
+	transform: scale(2);
+	color: #FFD700;
+}
+
+.btn-primary {
+	background-color: #FF8C00;
+	border-style: double;
+	border-color: #FF8C00;
+	cursor: pointer;
+	position: absolute;
+	top: 400px;
+	width: 200px;
+	font-size: 17px;
+	text-transform: uppercase;
+}
